@@ -15,7 +15,7 @@ function App() {
 
   const fetchBooks = async (selectedMood) => {
     try {
-      const response = await axios.get(`http://localhost:3000/recommendation/${selectedMood}`);
+      const response = await axios.get(`https://moodapp-aplk.onrender.com`);
       setBooks(response.data);
       setError("");
     } catch (error) {
