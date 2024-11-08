@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  max-width: 400px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+select {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
